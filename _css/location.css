@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+select{min-width:150px; line-height:20px; font-size:13px;}
+
+#location{
+margin:25px 0 0 15px;
+}
+
+#map{
+float:left;
+width:500px; 
+height:315px;
+background:url(../_images/usa.png) no-repeat;
+margin-right:20px;
+position:relative;
+}
+
+#mapContent{
+float:right;
+width:200px;
+margin-right:10px;
+}
+#mainArea p{
+font-size:12px;
+}
+
+#content{
+float:right;
+width:300px;
+}
+
+#regForm{
+float:left;
+}
+#mainArea{
+clear:both;
+float:left; 
+width:60%;
+margin-top:15px;
+}
+
+.locationListing{
+float:left;
+margin:20px 20px 10px 0px;
+}
+
+img.dot{
+background:url(../_images/pin.png) no-repeat;
+}
+
+img.dot:hover{
+background:url(../_images/pin_over.png) no-repeat;
+}
+
